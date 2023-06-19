@@ -129,7 +129,9 @@ const WeatherApp = () => {
   return (
     <div
       className="  bg-cover bg-center bg-no-repeat min-h-screen"
-      style={{ backgroundImage: `url('bg4.jpg')` }}
+      style={{
+        backgroundImage: `url('https://media.istockphoto.com/id/929048524/photo/abstract-blue-smoke-on-black-background-blue-color-clouds.jpg?s=170667a&w=0&k=20&c=KfctFHlOs8TviEeCgTY8FXg-5IYRofdZu9r0BBe5ZBo=')`,
+      }}
     >
       <div>
         <h4 className="text-2xl font-bold text-[#003366] ml-[10%] pt-5">
