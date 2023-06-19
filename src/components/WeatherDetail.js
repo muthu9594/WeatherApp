@@ -30,7 +30,7 @@ const Weather = ({
 
   return (
     <div className="container mx-auto px-4">
-      <div className="bg-white rounded-lg shadow-lg my-[1.5%] mx-auto w-[80%] md:w-[60%] lg:w-[40%] relative">
+      <div className="bg-white rounded-lg shadow-lg mt-5 mx-auto w-[80%] md:w-[60%] lg:w-[40%] relative">
         <div className="flex justify-end">
           <TiDeleteOutline
             onClick={deleteObj}
